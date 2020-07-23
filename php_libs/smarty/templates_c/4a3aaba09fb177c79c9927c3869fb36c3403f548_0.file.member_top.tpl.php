@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-07-18 23:33:11
+/* Smarty version 3.1.30, created on 2020-07-23 12:17:12
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/member_top.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f13082756d940_78708459',
+  'unifunc' => 'content_5f1901380aeb83_32774990',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4a3aaba09fb177c79c9927c3869fb36c3403f548' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/member_top.tpl',
-      1 => 1595082258,
+      1 => 1595474229,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f13082756d940_78708459 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f1901380aeb83_32774990 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -60,7 +60,8 @@ function content_5f13082756d940_78708459 (Smarty_Internal_Template $_smarty_tpl)
                                 <div style="text-align:center;">
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
 ?type=flame">フレーム表</a><p>
-                                    <p>各対キャラ対策メモ</p>
+                                    <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
+?type=countermeasure_note">各対キャラ対策メモ</a></p>
                                     <p>自キャラ開拓メモ</p>
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
 ?type=modify&action=form">会員登録情報の修正</a><p>

@@ -51,6 +51,9 @@ class MemberController extends BaseController
             case "flame":
                 $this->screen_flame();
                 break;
+            case "countermeasure_note":
+                $this->screen_countermeasure_note();
+                break;
             default:
                 $this->screen_top();
         }
@@ -117,15 +120,22 @@ class MemberController extends BaseController
     //----------------------------------------------------
     public function screen_flame()
     {
-
-
         $this->next_type = 'flame';
         $this->next_action = 'complete';
         $this->title = 'フレーム表';
         $this->file = 'flame.tpl';
+        $this->view_display();
+    }
 
-
-
+    //----------------------------------------------------
+    // フレーム画面
+    //----------------------------------------------------
+    public function screen_countermeasure_note()
+    {
+        $this->next_type = 'countermeasure_note';
+        $this->next_action = 'complete';
+        $this->title = '対策ノート';
+        $this->file = 'countermeasure_note.tpl';
         $this->view_display();
     }
 

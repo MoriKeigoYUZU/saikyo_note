@@ -32,7 +32,7 @@
                                 {*                                <td style="vertical-align:center;">*}
                                 <div style="text-align:center;">
                                     <p><a href="{$SCRIPT_NAME}?type=flame">フレーム表</a><p>
-                                    <p>各対キャラ対策メモ</p>
+                                    <p><a href="{$SCRIPT_NAME}?type=countermeasure_note">各対キャラ対策メモ</a></p>
                                     <p>自キャラ開拓メモ</p>
                                     <p><a href="{$SCRIPT_NAME}?type=modify&action=form">会員登録情報の修正</a><p>
                                     <p><a href="{$SCRIPT_NAME}?type=logout">ログアウト</a><p>
