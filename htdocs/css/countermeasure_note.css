@@ -168,6 +168,10 @@ html {
 
 body {
     /* 背景をグラデーションにする */
-    background: linear-gradient(45deg, #f6934a, #dead88);
+    background: linear-gradient(45deg, #01aa4c, #b6eacd);
     /*color:#cccccc;*/
+}
+
+.under {
+    margin-bottom: 10px;
 }
