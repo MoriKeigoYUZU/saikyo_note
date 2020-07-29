@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-07-23 12:37:36
-  from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/countermeasure_note.tpl" */
+/* Smarty version 3.1.30, created on 2020-07-23 13:08:20
+  from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/pioneering_note.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f1906000a1507_01455321',
+  'unifunc' => 'content_5f190d34bd6a37_40117024',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'f8700a946e92c221c3e89e94f5e6ad79d4e55099' => 
+    '961138000eae51255bd91f6767b261334fbd87af' => 
     array (
-      0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/countermeasure_note.tpl',
-      1 => 1595475454,
+      0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/pioneering_note.tpl',
+      1 => 1595477280,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f1906000a1507_01455321 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f190d34bd6a37_40117024 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -33,7 +33,7 @@ function content_5f1906000a1507_01455321 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/css/countermeasure_note.css">
+    <link rel="stylesheet" type="text/css" href="/css/pioneering_note.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@ function content_5f1906000a1507_01455321 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="waku">
                         <div style="text-align:center;">
                             <hr>
-                            <strong>対策メモ</strong>
+                            <strong>開拓メモ</strong>
                             <hr>
 
                             <a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
@@ -56,7 +56,7 @@ function content_5f1906000a1507_01455321 (Smarty_Internal_Template $_smarty_tpl)
 
                                 <li>
                                     <a data-toggle="collapse" href="#menu01" aria-controls="#menu01"
-                                       aria-expanded="false">対マリオ</a>
+                                       aria-expanded="false">マリオ</a>
                                 </li>
 
                                 <ul id="menu01" class="collapse" data-parent="#accordion_menu1">
@@ -73,7 +73,7 @@ function content_5f1906000a1507_01455321 (Smarty_Internal_Template $_smarty_tpl)
 
                                 <li>
                                     <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
-                                       aria-expanded="false">対ドンキーコング</a>
+                                       aria-expanded="false">ドンキーコング</a>
                                 </li>
                                 <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
                                     <li>

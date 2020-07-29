@@ -46,7 +46,7 @@
 <td>{$item.last_name|escape:"html"}</td>
 <td>{$item.first_name|escape:"html"}</td>
     <td>{$item.birthday|date_format:"%Y&#24180;%m&#26376;%d&#26085;"}</td>
-    <td>{$item.ken}</td>
+{*    <td>{$item.ken}</td>*}
     <td>{$item.reg_date|strtotime|date_format:"%Y&#24180;%m&#26376;%d&#26085;"}</td>
 <td>[<a href="{$SCRIPT_NAME}?type=modify&action=form&id={$item.id}{$add_pageID}">更新</a>]</td>
 <td>[<a href="{$SCRIPT_NAME}?type=delete&action=confirm&id={$item.id}{$add_pageID}">削除</a>]</td>

@@ -42,28 +42,19 @@
                                                       class="form-control"></textarea>
                                         </div>
                                         <button type="submit" class="btn btn-primary under">登録する</button>
-
                                     </form>
-
                                 </ul>
-
 
                                 <li>
                                     <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
                                        aria-expanded="false">対ドンキーコング</a>
                                 </li>
                                 <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
-                                    <a data-toggle="collapse" href="#menu12" aria-controls="#menu12"
-                                       aria-expanded="false">地上攻撃</a>
-                                    <ul id="menu12" class="collapse" data-parent="#accordion_menu21">
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-sm-6"></div>
-                                                <div class="col-sm-3">持続</div>
-                                                <div class="col-sm-3">全体</div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    <li>
+                                        <div class="row">
+                                            s
+                                        </div>
+                                    </li>
                                 </ul>
 
 

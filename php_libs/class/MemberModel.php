@@ -11,15 +11,14 @@ class MemberModel extends BaseModel {
     public function regist_member($userdata){
         try {
             $this->pdo->beginTransaction();
-            $sql = "INSERT  INTO member (username, password, last_name, first_name, birthday, ken, reg_date )
-            VALUES ( :username, :password, :last_name, :first_name, :birthday, :ken , now() )";
+            $sql = "INSERT  INTO member (username, password, last_name, first_name, birthday, reg_date )
+            VALUES ( :username, :password, :last_name, :first_name, :birthday , now() )";
             $stmh = $this->pdo->prepare($sql);
             $stmh->bindValue(':username',   $userdata['username'],   PDO::PARAM_STR );
             $stmh->bindValue(':password',   $userdata['password'],   PDO::PARAM_STR );
             $stmh->bindValue(':last_name',  $userdata['last_name'],  PDO::PARAM_STR );
             $stmh->bindValue(':first_name', $userdata['first_name'], PDO::PARAM_STR );
             $stmh->bindValue(':birthday',   $userdata['birthday'],   PDO::PARAM_STR );
-            $stmh->bindValue(':ken',        $userdata['ken'],        PDO::PARAM_INT );
             $stmh->execute();
             $this->pdo->commit();
         } catch (PDOException $Exception) {
@@ -99,7 +98,6 @@ class MemberModel extends BaseModel {
                         last_name  = :last_name,
                         first_name = :first_name,
                         birthday   = :birthday,
-                        ken        = :ken
                       WHERE id = :id";
             $stmh = $this->pdo->prepare($sql);
             $stmh->bindValue(':username',   $userdata['username'],   PDO::PARAM_STR );
@@ -107,7 +105,6 @@ class MemberModel extends BaseModel {
             $stmh->bindValue(':last_name',  $userdata['last_name'],  PDO::PARAM_STR );
             $stmh->bindValue(':first_name', $userdata['first_name'], PDO::PARAM_STR );
             $stmh->bindValue(':birthday',   $userdata['birthday'],   PDO::PARAM_STR );
-            $stmh->bindValue(':ken',        $userdata['ken'],        PDO::PARAM_INT );
             $stmh->bindValue(':id',         $userdata['id'],         PDO::PARAM_INT );
             $stmh->execute();
             $this->pdo->commit();
@@ -149,13 +146,12 @@ SELECT
         m.last_name   as last_name,
         m.first_name  as first_name,
         m.birthday    as birthday,
-        k.ken         as ken,
         m.reg_date    as reg_date
 FROM
         member m,
-        ken k
+--         ken k
 WHERE
-        m.ken = k.id
+--         m.ken = k.id
 
 EOS;
         if($search_key != ""){

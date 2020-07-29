@@ -54,6 +54,9 @@ class MemberController extends BaseController
             case "countermeasure_note":
                 $this->screen_countermeasure_note();
                 break;
+            case "pioneering_note":
+                $this->screen_pioneering_note();
+                break;
             default:
                 $this->screen_top();
         }
@@ -128,7 +131,7 @@ class MemberController extends BaseController
     }
 
     //----------------------------------------------------
-    // フレーム画面
+    // 対策ノート画面
     //----------------------------------------------------
     public function screen_countermeasure_note()
     {
@@ -136,6 +139,19 @@ class MemberController extends BaseController
         $this->next_action = 'complete';
         $this->title = '対策ノート';
         $this->file = 'countermeasure_note.tpl';
+        $this->view_display();
+    }
+
+    //----------------------------------------------------
+    // 開拓ノート画面
+    //----------------------------------------------------
+
+    public function screen_pioneering_note()
+    {
+        $this->next_type = 'pioneering_note';
+        $this->next_action = 'complete';
+        $this->title = '開拓ノート';
+        $this->file = 'pioneering_note.tpl';
         $this->view_display();
     }
 
@@ -257,7 +273,7 @@ class MemberController extends BaseController
                 'username' => $_SESSION[_MEMBER_AUTHINFO]['username'],
                 'last_name' => $_SESSION[_MEMBER_AUTHINFO]['last_name'],
                 'first_name' => $_SESSION[_MEMBER_AUTHINFO]['first_name'],
-                'ken' => $_SESSION[_MEMBER_AUTHINFO]['ken'],
+//                'ken' => $_SESSION[_MEMBER_AUTHINFO]['ken'],
                 'birthday' => $date_defaults,
             ]
         ));

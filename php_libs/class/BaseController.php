@@ -107,8 +107,8 @@ class BaseController {
     // 会員情報入力項目と入力ルールの設定
     //----------------------------------------------------
     public function make_form_controle(){
-        $KenModel = new KenModel;
-        $ken_array = $KenModel->get_ken_data();
+//        $KenModel = new KenModel;
+//        $ken_array = $KenModel->get_ken_data();
         $options = [
             'format'    => 'Ymd',
             'minYear'   => 1950,
@@ -119,7 +119,7 @@ class BaseController {
         $last_name = $this->form->addElement('text',  'last_name', ['size' => 30], ['label' => '氏'] );
         $first_name= $this->form->addElement('text',  'first_name',['size' => 30], ['label' => '名'] );
         $birthday =  $this->form->addElement('date',  'birthday',  null, ['label' => '誕生日'] + $options);
-        $ken =       $this->form->addElement('select','ken',       null, ['label' => '県名', 'options' => $ken_array] );
+//        $ken =       $this->form->addElement('select','ken',       null, ['label' => '県名', 'options' => $ken_array] );
 
         $username->addRule('required', 'メールアドレスを入力してください。', null, HTML_QuickForm2_Rule::SERVER);
         $username->addRule('email',  'メールアドレスの形式が不正です。',    null, HTML_QuickForm2_Rule::SERVER);

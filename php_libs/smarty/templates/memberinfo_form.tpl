@@ -89,15 +89,15 @@
                                 </div>
                             </div>
 
-                            <div>
-                                {$form.ken.label}
-                                <div>
-                                    {if isset($form.ken.error)}
-                                        <div style="color:red; font-size: smaller;">{$form.ken.error}</div>
-                                    {/if}
-                                    {$form.ken.html}
-                                </div>
-                            </div>
+{*                            <div>*}
+{*                                {$form.ken.label}*}
+{*                                <div>*}
+{*                                    {if isset($form.ken.error)}*}
+{*                                        <div style="color:red; font-size: smaller;">{$form.ken.error}</div>*}
+{*                                    {/if}*}
+{*                                    {$form.ken.html}*}
+{*                                </div>*}
+{*                            </div>*}
                             {if ( $form.submit2.attribs.value != "" ) }
                                 {$form.submit2.html}　
                             {else}

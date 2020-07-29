@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/css/countermeasure_note.css">
+    <link rel="stylesheet" type="text/css" href="/css/pioneering_note.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
                     <div class="waku">
                         <div style="text-align:center;">
                             <hr>
-                            <strong>対策メモ</strong>
+                            <strong>開拓メモ</strong>
                             <hr>
 
                             <a href="{$SCRIPT_NAME}">トップページへ</a>
@@ -30,7 +30,7 @@
 
                                 <li>
                                     <a data-toggle="collapse" href="#menu01" aria-controls="#menu01"
-                                       aria-expanded="false">対マリオ</a>
+                                       aria-expanded="false">マリオ</a>
                                 </li>
 
                                 <ul id="menu01" class="collapse" data-parent="#accordion_menu1">
@@ -47,7 +47,7 @@
 
                                 <li>
                                     <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
-                                       aria-expanded="false">対ドンキーコング</a>
+                                       aria-expanded="false">ドンキーコング</a>
                                 </li>
                                 <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
                                     <li>

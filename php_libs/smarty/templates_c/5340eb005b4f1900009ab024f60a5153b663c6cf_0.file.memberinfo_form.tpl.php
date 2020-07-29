@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-07-18 22:59:12
+/* Smarty version 3.1.30, created on 2020-07-29 15:50:02
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/memberinfo_form.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f13003010ebb0_04431466',
+  'unifunc' => 'content_5f211c1a5f6565_24314266',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5340eb005b4f1900009ab024f60a5153b663c6cf' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/memberinfo_form.tpl',
-      1 => 1595080424,
+      1 => 1596005310,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f13003010ebb0_04431466 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -137,18 +137,15 @@ echo $_smarty_tpl->tpl_vars['form']->value['birthday']['d']['html'];?>
                                 </div>
                             </div>
 
-                            <div>
-                                <?php echo $_smarty_tpl->tpl_vars['form']->value['ken']['label'];?>
 
-                                <div>
-                                    <?php if (isset($_smarty_tpl->tpl_vars['form']->value['ken']['error'])) {?>
-                                        <div style="color:red; font-size: smaller;"><?php echo $_smarty_tpl->tpl_vars['form']->value['ken']['error'];?>
-</div>
-                                    <?php }?>
-                                    <?php echo $_smarty_tpl->tpl_vars['form']->value['ken']['html'];?>
 
-                                </div>
-                            </div>
+
+
+
+
+
+
+
                             <?php if (($_smarty_tpl->tpl_vars['form']->value['submit2']['attribs']['value'] != '')) {?>
                                 <?php echo $_smarty_tpl->tpl_vars['form']->value['submit2']['html'];?>
 　
