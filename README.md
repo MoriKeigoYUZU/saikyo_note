@@ -1,63 +1,24 @@
+# 最強メモ
+
+スマブラSPの対策メモを作った.  
+時間の都合でMVP開発ということで"ナンバー1"のマリオのみの実装となっている.(データベースは多くのキャラを書き込める形となっている.)  
 
 
-### データベース作成
-```
-CREATE DATABASE sampledb;
-```
+## できること
+* フレーム確認
+* 対策メモ
+* 開拓メモ
 
-### Memberテーブル
-```
-DROP TABLE IF EXISTS member;
-CREATE TABLE member (
-    id          INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    username   	VARCHAR(50),
-    password   	VARCHAR(128),
-    last_name  	VARCHAR(50),
-    first_name 	VARCHAR(50),
-    birthday   	CHAR(8),
-    reg_date   	DATETIME,
-    cancel      DATETIME,
-    PRIMARY KEY (id)
-);
-```
+### フレーム表
 
-### Prememberテーブル
-```
-DROP TABLE IF EXISTS premember;
-CREATE TABLE premember (
-        id          INT UNSIGNED NOT NULL AUTO_INCREMENT,
-        username   	VARCHAR(50),
-        password   	VARCHAR(128),
-        last_name  	VARCHAR(50),
-        first_name 	VARCHAR(50),
-        birthday   	CHAR(8),
-        link_pass   VARCHAR(128),
-        reg_date   	DATETIME,
-        PRIMARY KEY (id)
-) ENGINE=INNODB;
-```
+キャラの全体フレーム,発生フレームを見ることができる.  
 
-### CharacterDataテーブル
-```
-DROP TABLE IF EXISTS characterdata;
-CREATE TABLE characterdata (
-    id          INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    name        VARCHAR(128),
-    PRIMARY KEY (id)
-)ENGINE=INNODB;
-```
+フロントにデータをもたせて出力している.  
+データベース(characterdata)を拡張し,GETしてきたら実装可能.  
 
-### Memoテーブル
-```
-DROP TABLE IF EXISTS memo;
-CREATE TABLE memo (
-    id              INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    member_id       INT UNSIGNED NOT NULL,
-    character_id    INT UNSIGNED NOT NULL,
-    flag            INT UNSIGNED NOT NULL,
-    memo            VARCHAR(255),
-    PRIMARY KEY (id),
-    FOREIGN KEY(member_id) REFERENCES member(id) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY(character_id) REFERENCES characterdata(id) ON UPDATE CASCADE ON DELETE CASCADE
-)ENGINE=INNODB;
-```
+### 対策メモ・開拓メモ
+
+対策・開拓メモをすることができる.  
+
+フロント側で,対策メモであれば"1",開拓メモ"0"をPOSTで投げているため,バックの動作はほとんど同じとなっている.
+データベースに格納されたデータはGETで全件取得し"1"か"2"か判定出力している.
