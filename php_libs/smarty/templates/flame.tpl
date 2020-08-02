@@ -7,13 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="/css/flame.css">
 </head>
-
 <body>
 <div style="text-align:center;">
-
     <div class="container">
         <div class="row">
             <div class="col">
@@ -23,16 +20,12 @@
                             <hr>
                             <strong>フレーム表</strong>
                             <hr>
-
                             <a href="{$SCRIPT_NAME}">トップページへ</a>
-
                             <ul id="accordion_menu">
-
                                 <li>
                                     <a data-toggle="collapse" href="#menu01" aria-controls="#menu01"
                                        aria-expanded="false">マリオ</a>
                                 </li>
-
                                 <ul id="menu01" class="collapse" data-parent="#accordion_menu1">
                                     <a data-toggle="collapse" href="#menu02" aria-controls="#menu02"
                                        aria-expanded="false">地上攻撃</a>
@@ -44,7 +37,6 @@
                                                 <div class="col-sm-3">全体</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">弱1</div>
@@ -67,7 +59,6 @@
                                                 <div class="col-sm-3">33</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">ダッシュ攻撃</div>
@@ -132,8 +123,6 @@
                                             </div>
                                         </li>
                                     </ul>
-
-
                                     <a data-toggle="collapse" href="#menu03" aria-controls="#menu03"
                                        aria-expanded="false">空中攻撃</a>
                                     <ul id="menu03" class="collapse" data-parent="#accordion_menu3">
@@ -144,7 +133,6 @@
                                                 <div class="col-sm-3">全体</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">空N</div>
@@ -159,7 +147,6 @@
                                                 <div class="col-sm-3">45</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">空前 始</div>
@@ -167,7 +154,6 @@
                                                 <div class="col-sm-3">59</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">空前 メテオ</div>
@@ -225,7 +211,6 @@
                                             </div>
                                         </li>
                                     </ul>
-
                                     <a data-toggle="collapse" href="#menu04" aria-controls="#menu04"
                                        aria-expanded="false">必殺ワザ</a>
                                     <ul id="menu04" class="collapse" data-parent="#accordion_menu4">
@@ -236,7 +221,6 @@
                                                 <div class="col-sm-3">全体</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">NB</div>
@@ -251,7 +235,6 @@
                                                 <div class="col-sm-3">49</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">NB 持続2</div>
@@ -259,7 +242,6 @@
                                                 <div class="col-sm-3">49</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">横B</div>
@@ -306,24 +288,23 @@
                                     </ul>
                                 </ul>
 
-                                <li>
-                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
-                                       aria-expanded="false">ドンキーコング</a>
-                                </li>
-                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
-                                    <a data-toggle="collapse" href="#menu12" aria-controls="#menu12"
-                                       aria-expanded="false">地上攻撃</a>
-                                    <ul id="menu12" class="collapse" data-parent="#accordion_menu21">
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-sm-6"></div>
-                                                <div class="col-sm-3">持続</div>
-                                                <div class="col-sm-3">全体</div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </ul>
-
+{*                                <li>*}
+{*                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"*}
+{*                                       aria-expanded="false">ドンキーコング</a>*}
+{*                                </li>*}
+{*                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">*}
+{*                                    <a data-toggle="collapse" href="#menu12" aria-controls="#menu12"*}
+{*                                       aria-expanded="false">地上攻撃</a>*}
+{*                                    <ul id="menu12" class="collapse" data-parent="#accordion_menu21">*}
+{*                                        <li>*}
+{*                                            <div class="row">*}
+{*                                                <div class="col-sm-6"></div>*}
+{*                                                <div class="col-sm-3">持続</div>*}
+{*                                                <div class="col-sm-3">全体</div>*}
+{*                                            </div>*}
+{*                                        </li>*}
+{*                                    </ul>*}
+{*                                </ul>*}
 
                             </ul>
                         </div>

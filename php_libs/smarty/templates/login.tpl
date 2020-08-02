@@ -9,7 +9,6 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/styleLogin.css">
 </head>
-
 <body>
 {*
 参考先
@@ -22,7 +21,6 @@ https://bootsnipp.com/snippets/mpoWl
                 <form {$form.attributes} action="" class="form-signin">
                     <h3 class="form-signin-heading">最強の対策ノート</h3>
                     <hr class="colorgraph">
-
                     <input type="text" class="form-control" name="username" placeholder="Username" required=""
                            autofocus=""/>
                     <input type="password" class="form-control" name="password" placeholder="Password" required=""/>
@@ -37,12 +35,8 @@ https://bootsnipp.com/snippets/mpoWl
         </div>
     </div>
 </div>
-
-
 {if ($debug_str)}
     <pre>{$debug_str}</pre>{/if}
-
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

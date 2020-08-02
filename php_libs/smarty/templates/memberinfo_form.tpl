@@ -12,8 +12,6 @@
     <link rel="stylesheet" type="text/css" href="/css/styleMemberinfo.css">
 </head>
 <body>
-
-
 <div class="container">
     <div class="row">
         <div class="col">
@@ -21,7 +19,6 @@
                 <div class="form-signin">
                     <h3 class="form-signin-heading">最強の対策ノート</h3>
                     <hr class="colorgraph">
-
                     <div style="text-align:center;">
                         <hr>
                         <div>{$title}</div>
@@ -29,7 +26,6 @@
                             <a href="{$SCRIPT_NAME}">トップページへ</a>
                         </div>
                         <hr>
-
                         <form {$form.attributes}>
                             {$form.hidden}
 
@@ -44,7 +40,6 @@
                                 </div>
                             </div>
 
-
                             {*パスワード*}
                             <div>
                                 {$form.password.label}
@@ -55,7 +50,6 @@
                                     {$form.password.html}
                                 </div>
                             </div>
-
 
                             {*氏*}
                             <div>
@@ -78,7 +72,6 @@
                                     {$form.first_name.html}
                                 </div>
                             </div>
-
                             <div>
                                 {$form.birthday.label}
                                 <div>
@@ -88,16 +81,6 @@
                                     {$form.birthday.Y.html}{$form.birthday.m.html}{$form.birthday.d.html}
                                 </div>
                             </div>
-
-{*                            <div>*}
-{*                                {$form.ken.label}*}
-{*                                <div>*}
-{*                                    {if isset($form.ken.error)}*}
-{*                                        <div style="color:red; font-size: smaller;">{$form.ken.error}</div>*}
-{*                                    {/if}*}
-{*                                    {$form.ken.html}*}
-{*                                </div>*}
-{*                            </div>*}
                             {if ( $form.submit2.attribs.value != "" ) }
                                 {$form.submit2.html}　
                             {else}
@@ -113,7 +96,6 @@
         </div>
     </div>
 </div>
-
 
 {if $form.javascript}
     {$form.javascript}

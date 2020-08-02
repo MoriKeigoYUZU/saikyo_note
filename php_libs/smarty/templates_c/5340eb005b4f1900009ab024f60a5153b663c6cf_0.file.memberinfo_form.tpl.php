@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-07-29 15:50:02
+/* Smarty version 3.1.30, created on 2020-08-02 16:08:10
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/memberinfo_form.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f211c1a5f6565_24314266',
+  'unifunc' => 'content_5f26665a636cb1_76215455',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5340eb005b4f1900009ab024f60a5153b663c6cf' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/memberinfo_form.tpl',
-      1 => 1596005310,
+      1 => 1596352078,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f26665a636cb1_76215455 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -39,8 +39,6 @@ function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" type="text/css" href="/css/styleMemberinfo.css">
 </head>
 <body>
-
-
 <div class="container">
     <div class="row">
         <div class="col">
@@ -48,7 +46,6 @@ function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="form-signin">
                     <h3 class="form-signin-heading">最強の対策ノート</h3>
                     <hr class="colorgraph">
-
                     <div style="text-align:center;">
                         <hr>
                         <div><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
@@ -58,7 +55,6 @@ function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl)
 ">トップページへ</a>
                         </div>
                         <hr>
-
                         <form <?php echo $_smarty_tpl->tpl_vars['form']->value['attributes'];?>
 >
                             <?php echo $_smarty_tpl->tpl_vars['form']->value['hidden'];?>
@@ -78,7 +74,6 @@ function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl)
                                 </div>
                             </div>
 
-
                             
                             <div>
                                 <?php echo $_smarty_tpl->tpl_vars['form']->value['password']['label'];?>
@@ -92,7 +87,6 @@ function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl)
 
                                 </div>
                             </div>
-
 
                             
                             <div>
@@ -121,7 +115,6 @@ function content_5f211c1a5f6565_24314266 (Smarty_Internal_Template $_smarty_tpl)
 
                                 </div>
                             </div>
-
                             <div>
                                 <?php echo $_smarty_tpl->tpl_vars['form']->value['birthday']['label'];?>
 
@@ -136,16 +129,6 @@ echo $_smarty_tpl->tpl_vars['form']->value['birthday']['d']['html'];?>
 
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
-
-
                             <?php if (($_smarty_tpl->tpl_vars['form']->value['submit2']['attribs']['value'] != '')) {?>
                                 <?php echo $_smarty_tpl->tpl_vars['form']->value['submit2']['html'];?>
 　
@@ -166,7 +149,6 @@ echo $_smarty_tpl->tpl_vars['form']->value['birthday']['d']['html'];?>
         </div>
     </div>
 </div>
-
 
 <?php if ($_smarty_tpl->tpl_vars['form']->value['javascript']) {?>
     <?php echo $_smarty_tpl->tpl_vars['form']->value['javascript'];?>

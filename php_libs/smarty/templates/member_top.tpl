@@ -11,8 +11,6 @@
 </head>
 
 <body>
-
-
 <div class="container">
     <div class="row">
         <div class="col">
@@ -27,18 +25,20 @@
                                 <td style="vertical-align:center;">
                                     <br>
                                     <br>
-                                    {*{$disp_login_state}*}
                                 </td>
-                                {*<td style="vertical-align:center;">*}
                                 <div style="text-align:center;">
-                                    <p><a href="{$SCRIPT_NAME}?type=flame" class="btn btn--orange">フレーム表</a><p>
-                                    <p><a href="{$SCRIPT_NAME}?type=countermeasure_note" class="btn btn--green">各対キャラ対策メモ</a></p>
-                                    <p><a href="{$SCRIPT_NAME}?type=pioneering_note" class="btn btn--red">自キャラ開拓メモ</a></p>
-                                    <p><a href="{$SCRIPT_NAME}?type=modify&action=form">会員登録情報の修正</a><p>
-                                    <p><a href="{$SCRIPT_NAME}?type=logout">ログアウト</a><p>
+                                    <p><a href="{$SCRIPT_NAME}?type=flame" class="btn btn--orange">フレーム表</a>
+                                    <p>
+                                    <p><a href="{$SCRIPT_NAME}?type=countermeasure_note" class="btn btn--green">各対キャラ対策メモ</a>
+                                    </p>
+                                    <p><a href="{$SCRIPT_NAME}?type=pioneering_note" class="btn btn--red">自キャラ開拓メモ</a>
+                                    </p>
+                                    <p><a href="{$SCRIPT_NAME}?type=modify&action=form">会員登録情報の修正</a>
+                                    <p>
+                                    <p><a href="{$SCRIPT_NAME}?type=logout">ログアウト</a>
+                                    <p>
                                     <p><a href="{$SCRIPT_NAME}?type=delete&action=confirm">退会する</a></p>
                                 </div>
-                                {*</td>*}
                             </tr>
                         </table>
                     </div>

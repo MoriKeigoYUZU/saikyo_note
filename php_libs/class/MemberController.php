@@ -138,6 +138,34 @@ class MemberController extends BaseController
         $this->next_type = 'countermeasure_note';
         $this->next_action = 'complete';
         $this->title = '対策ノート';
+
+//        echo($_SESSION['userinfo']['id']);
+
+        if ($_POST['message'] != NULL) {
+            $message = $_POST['message'];
+            $type = $_GET['type'];
+            $memoModel = new memoModel();
+            $flag = 0;
+
+            if (strcmp($type, 'countermeasure_note') == 0) {
+                $flag = 1;
+            } else {
+                $flag = 0;
+            }
+
+            if (isset($_SESSION['userinfo']['id'])) {
+                $memoModel->add_memo($message, $flag, $_SESSION['userinfo']['id']);
+            }
+        }
+
+        // データベースを操作します。
+        $memoModel = new memoModel();
+        if (isset($_SESSION['userinfo']['id'])) {
+            list($data) = $memoModel->get_memo_1($_SESSION[_MEMBER_AUTHINFO]['id']);
+        }
+        $this->view->assign('data', $data);
+
+
         $this->file = 'countermeasure_note.tpl';
         $this->view_display();
     }
@@ -151,6 +179,31 @@ class MemberController extends BaseController
         $this->next_type = 'pioneering_note';
         $this->next_action = 'complete';
         $this->title = '開拓ノート';
+
+        if ($_POST['message'] != NULL) {
+            $message = $_POST['message'];
+            $type = $_GET['type'];
+            $memoModel = new memoModel();
+            $flag = 1;
+
+            if (strcmp($type, 'countermeasure_note') == 0) {
+                $flag = 1;
+            } else {
+                $flag = 0;
+            }
+
+            if (isset($_SESSION['userinfo']['id'])) {
+                $memoModel->add_memo($message, $flag, $_SESSION['userinfo']['id']);
+            }
+        }
+
+        // データベースを操作します。
+        $memoModel = new memoModel();
+        if (isset($_SESSION['userinfo']['id'])) {
+            list($data) = $memoModel->get_memo_1($_SESSION[_MEMBER_AUTHINFO]['id']);
+        }
+        $this->view->assign('data', $data);
+
         $this->file = 'pioneering_note.tpl';
         $this->view_display();
     }

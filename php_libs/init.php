@@ -8,7 +8,7 @@
 // デバッグ表示 true / デバッグ表示オフfalse
 //----------------------------------------------------
 
-// define("_DEBUG_MODE", true);
+//define("_DEBUG_MODE", true);
 
 define("_DEBUG_MODE", false);
 
@@ -22,7 +22,7 @@ define("_DEBUG_MODE", false);
 //ini_set( "error_reporting", E_ALL );
 
 // 運用中
-//ini_set( "error_reporting", E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED );
+ini_set( "error_reporting", E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED );
 
 //----------------------------------------------------
 // データベース関連
@@ -138,3 +138,5 @@ require_once( _CLASS_DIR      . "PrememberController.php");
 require_once( _CLASS_DIR      . "PrememberModel.php");
 require_once( _CLASS_DIR      . "SystemController.php");
 require_once( _CLASS_DIR      . "SystemModel.php");
+require_once( _CLASS_DIR      . "memoModel.php");
+require_once( _CLASS_DIR      . "memoController.php");

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-07-18 21:35:23
+/* Smarty version 3.1.30, created on 2020-08-02 16:08:14
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/message.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f12ec8bdc93f1_74333860',
+  'unifunc' => 'content_5f26665eae6e68_72225262',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eb78cf9fa7a6faa1db5c13d3d04370177f38cafa' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/message.tpl',
-      1 => 1594456521,
+      1 => 1596352078,
       2 => 'file',
     ),
   ),
@@ -20,49 +20,68 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f12ec8bdc93f1_74333860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f26665eae6e68_72225262 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+    <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/css/memberDelete.css">
 </head>
 <body>
 <div style="text-align:center;">
-<hr>
-<strong><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="wrapper">
+                    <div class="waku">
+                        <div style="text-align:center;">
+                            <hr>
+                            <strong><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </strong>
-<hr>
-    <table>
-      <tr>
-        
-      <td style="vertical-align: top;">
-	[ <a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
-">トップページへ</a> ]
-<?php if (($_smarty_tpl->tpl_vars['is_system']->value)) {?>
-	<br>
-	<br>
-      	[ <a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
+                            <hr>
+                            <table>
+                                <tr>
+                                    <div style="vertical-align: top;">
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
+">トップページへ</a><br>
+                                        <?php if (($_smarty_tpl->tpl_vars['is_system']->value)) {?>
+                                            <br>
+                                            <br>
+                                            [
+                                            <a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
 ?type=list&action=form<?php echo $_smarty_tpl->tpl_vars['add_pageID']->value;?>
-">会員一覧</a> ]
-<?php }?>
-	<br>
-	<br>
-	<?php echo $_smarty_tpl->tpl_vars['disp_login_state']->value;?>
+">会員一覧</a>
+                                            ]
+                                        <?php }?>
+                                        <br>
+                                        <br>
+                                        <?php echo $_smarty_tpl->tpl_vars['disp_login_state']->value;?>
 
-      </td>
-        
-      <td>
-  		<?php echo $_smarty_tpl->tpl_vars['message']->value;?>
+                                    </div>
+                                    <div>
+                                        <?php echo $_smarty_tpl->tpl_vars['message']->value;?>
 
-
-
-        </td>
-      </tr>
-    </table>
+                                    </div>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<?php if (($_smarty_tpl->tpl_vars['debug_str']->value)) {?><pre><?php echo $_smarty_tpl->tpl_vars['debug_str']->value;?>
+<?php if (($_smarty_tpl->tpl_vars['debug_str']->value)) {?>
+    <pre><?php echo $_smarty_tpl->tpl_vars['debug_str']->value;?>
 </pre><?php }?>
 </body>
 </html>

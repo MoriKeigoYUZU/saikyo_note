@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-07-23 13:06:06
+/* Smarty version 3.1.30, created on 2020-08-02 16:04:31
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/member_top.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f190caea182a0_89277171',
+  'unifunc' => 'content_5f26657fa4e011_66565077',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4a3aaba09fb177c79c9927c3869fb36c3403f548' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/member_top.tpl',
-      1 => 1595477164,
+      1 => 1596351848,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f190caea182a0_89277171 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f26657fa4e011_66565077 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -36,8 +36,6 @@ function content_5f190caea182a0_89277171 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 
 <body>
-
-
 <div class="container">
     <div class="row">
         <div class="col">
@@ -54,24 +52,26 @@ function content_5f190caea182a0_89277171 (Smarty_Internal_Template $_smarty_tpl)
                                 <td style="vertical-align:center;">
                                     <br>
                                     <br>
-                                    
                                 </td>
-                                
                                 <div style="text-align:center;">
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
-?type=flame" class="btn btn--orange">フレーム表</a><p>
+?type=flame" class="btn btn--orange">フレーム表</a>
+                                    <p>
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
-?type=countermeasure_note" class="btn btn--green">各対キャラ対策メモ</a></p>
+?type=countermeasure_note" class="btn btn--green">各対キャラ対策メモ</a>
+                                    </p>
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
-?type=pioneering_note" class="btn btn--red">自キャラ開拓メモ</a></p>
+?type=pioneering_note" class="btn btn--red">自キャラ開拓メモ</a>
+                                    </p>
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
-?type=modify&action=form">会員登録情報の修正</a><p>
+?type=modify&action=form">会員登録情報の修正</a>
+                                    <p>
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
-?type=logout">ログアウト</a><p>
+?type=logout">ログアウト</a>
+                                    <p>
                                     <p><a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
 ?type=delete&action=confirm">退会する</a></p>
                                 </div>
-                                
                             </tr>
                         </table>
                     </div>

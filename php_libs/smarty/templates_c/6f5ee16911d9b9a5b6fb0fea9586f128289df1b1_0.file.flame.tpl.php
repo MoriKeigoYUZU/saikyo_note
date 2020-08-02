@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-07-23 12:17:28
+/* Smarty version 3.1.30, created on 2020-08-02 16:08:02
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/flame.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f1901489419e4_13467792',
+  'unifunc' => 'content_5f266652384826_54706342',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f5ee16911d9b9a5b6fb0fea9586f128289df1b1' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/flame.tpl',
-      1 => 1595473881,
+      1 => 1596352078,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f266652384826_54706342 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -32,13 +32,10 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="/css/flame.css">
 </head>
-
 <body>
 <div style="text-align:center;">
-
     <div class="container">
         <div class="row">
             <div class="col">
@@ -48,17 +45,13 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                             <hr>
                             <strong>フレーム表</strong>
                             <hr>
-
                             <a href="<?php echo $_smarty_tpl->tpl_vars['SCRIPT_NAME']->value;?>
 ">トップページへ</a>
-
                             <ul id="accordion_menu">
-
                                 <li>
                                     <a data-toggle="collapse" href="#menu01" aria-controls="#menu01"
                                        aria-expanded="false">マリオ</a>
                                 </li>
-
                                 <ul id="menu01" class="collapse" data-parent="#accordion_menu1">
                                     <a data-toggle="collapse" href="#menu02" aria-controls="#menu02"
                                        aria-expanded="false">地上攻撃</a>
@@ -70,7 +63,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">全体</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">弱1</div>
@@ -93,7 +85,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">33</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">ダッシュ攻撃</div>
@@ -158,8 +149,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                             </div>
                                         </li>
                                     </ul>
-
-
                                     <a data-toggle="collapse" href="#menu03" aria-controls="#menu03"
                                        aria-expanded="false">空中攻撃</a>
                                     <ul id="menu03" class="collapse" data-parent="#accordion_menu3">
@@ -170,7 +159,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">全体</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">空N</div>
@@ -185,7 +173,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">45</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">空前 始</div>
@@ -193,7 +180,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">59</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">空前 メテオ</div>
@@ -251,7 +237,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                             </div>
                                         </li>
                                     </ul>
-
                                     <a data-toggle="collapse" href="#menu04" aria-controls="#menu04"
                                        aria-expanded="false">必殺ワザ</a>
                                     <ul id="menu04" class="collapse" data-parent="#accordion_menu4">
@@ -262,7 +247,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">全体</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">NB</div>
@@ -277,7 +261,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">49</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">NB 持続2</div>
@@ -285,7 +268,6 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                                 <div class="col-sm-3">49</div>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-6">横B</div>
@@ -332,23 +314,22 @@ function content_5f1901489419e4_13467792 (Smarty_Internal_Template $_smarty_tpl)
                                     </ul>
                                 </ul>
 
-                                <li>
-                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
-                                       aria-expanded="false">ドンキーコング</a>
-                                </li>
-                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
-                                    <a data-toggle="collapse" href="#menu12" aria-controls="#menu12"
-                                       aria-expanded="false">地上攻撃</a>
-                                    <ul id="menu12" class="collapse" data-parent="#accordion_menu21">
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-sm-6"></div>
-                                                <div class="col-sm-3">持続</div>
-                                                <div class="col-sm-3">全体</div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                             </ul>
