@@ -46,20 +46,32 @@
                                         <button type="submit" class="btn btn-primary under">登録する</button>
                                     </form>
                                 </ul>
-                                {*                                <li>*}
-                                {*                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"*}
-                                {*                                       aria-expanded="false">対ドンキーコング</a>*}
-                                {*                                </li>*}
-                                {*                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">*}
-                                {*                                    <form action="#" method="post">*}
-                                {*                                        <div class="form-group">*}
-                                {*                                            <label for="message">メモ</label>*}
-                                {*                                            <textarea id="message" name="message" rows="8" cols="80"*}
-                                {*                                                      class="form-control"></textarea>*}
-                                {*                                        </div>*}
-                                {*                                        <button type="submit" class="btn btn-primary under">登録する</button>*}
-                                {*                                    </form>*}
-                                {*                                </ul>*}
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対ドンキーコング</a>
+                                </li>
+                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
+                                    <form action="#" method="post">
+                                        <div class="form-group">
+                                            <label for="message">メモ</label>
+                                            <textarea id="message" name="message" rows="8" cols="80"
+                                                      class="form-control"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary under">登録する</button>
+                                    </form>
+                                </ul>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対リンク</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対サムス</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対ダークサムス</a>
+                                </li>
 
                             </ul>
                         </div>

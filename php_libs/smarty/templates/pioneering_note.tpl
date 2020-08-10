@@ -61,17 +61,29 @@
                                         <button type="submit" class="btn btn-primary under">登録する</button>
                                     </form>
                                 </ul>
-                                {*                                <li>*}
-                                {*                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"*}
-                                {*                                       aria-expanded="false">ドンキーコング</a>*}
-                                {*                                </li>*}
-                                {*                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">*}
-                                {*                                    <li>*}
-                                {*                                        <div class="row">*}
-                                {*                                            s*}
-                                {*                                        </div>*}
-                                {*                                    </li>*}
-                                {*                                </ul>*}
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">ドンキーコング</a>
+                                </li>
+                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
+                                    <li>
+                                        <div class="row">
+                                            s
+                                        </div>
+                                    </li>
+                                </ul>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対リンク</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対サムス</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対ダークサムス</a>
+                                </li>
 
                             </ul>
                         </div>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-08-02 16:24:26
+/* Smarty version 3.1.30, created on 2020-08-10 11:14:02
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/pioneering_note.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f266a2a854c94_20452609',
+  'unifunc' => 'content_5f30ad6ae234c6_00551675',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '961138000eae51255bd91f6767b261334fbd87af' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/pioneering_note.tpl',
-      1 => 1596353036,
+      1 => 1597025641,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f266a2a854c94_20452609 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f30ad6ae234c6_00551675 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -97,17 +97,29 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
                                         <button type="submit" class="btn btn-primary under">登録する</button>
                                     </form>
                                 </ul>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">ドンキーコング</a>
+                                </li>
+                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
+                                    <li>
+                                        <div class="row">
+                                            s
+                                        </div>
+                                    </li>
+                                </ul>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対リンク</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対サムス</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">対ダークサムス</a>
+                                </li>
 
                             </ul>
                         </div>

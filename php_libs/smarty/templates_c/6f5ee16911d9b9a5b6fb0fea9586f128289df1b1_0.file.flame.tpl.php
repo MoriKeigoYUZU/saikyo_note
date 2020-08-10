@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-08-02 16:08:02
+/* Smarty version 3.1.30, created on 2020-08-10 11:03:03
   from "/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/flame.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f266652384826_54706342',
+  'unifunc' => 'content_5f30aad7be8bd4_00593453',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f5ee16911d9b9a5b6fb0fea9586f128289df1b1' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/php_libs/smarty/templates/flame.tpl',
-      1 => 1596352078,
+      1 => 1597024980,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f266652384826_54706342 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f30aad7be8bd4_00593453 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -314,23 +314,55 @@ function content_5f266652384826_54706342 (Smarty_Internal_Template $_smarty_tpl)
                                     </ul>
                                 </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">ドンキーコング</a>
+                                </li>
+                                <ul id="menu11" class="collapse" data-parent="#accordion_menu11">
+                                    <a data-toggle="collapse" href="#menu12" aria-controls="#menu12"
+                                       aria-expanded="false">地上攻撃</a>
+                                    <ul id="menu12" class="collapse" data-parent="#accordion_menu21">
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-sm-6"></div>
+                                                <div class="col-sm-3">持続</div>
+                                                <div class="col-sm-3">全体</div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </ul>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">リンク</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">サムス</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">ダークサムス</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">ヨッシー</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">カービィ</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">フォックス</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">ピカチュウ</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#menu11" aria-controls="#menu11"
+                                       aria-expanded="false">ルイージ</a>
+                                </li>
 
                             </ul>
                         </div>
