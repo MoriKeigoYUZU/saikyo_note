@@ -5,6 +5,12 @@
 
 ## 環境構築
 
+* 実行環境
+    - XAMPPをインストールし，以下の2項目をRunnig状態にする
+        - MySQL Database
+        - Apache Web Server
+    - local環境を利用して実行
+
 データベースの作成は、初期化.mdに記載
 
 ## できること
